@@ -1,4 +1,4 @@
- function getUUID() { // Public Domain/MIT
+ const getUUID=()=> { // Public Domain/MIT
   var d = new Date().getTime();//Timestamp
   var d2 = 0
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
@@ -15,7 +15,7 @@
 }
 
 
- function shuffleArray(array: any[]) {
+ const shuffleArray=(array: any[])=> {
   let currentIndex = array.length,  randomIndex;
   // While there remain elements to shuffle...
   while (currentIndex != 0) {
