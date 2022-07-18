@@ -1,2 +1,2 @@
-# Helper-Funtions in typescript
+# Helper-Funtions in Typescript
 
