@@ -194,3 +194,9 @@ function numberWithCommas(x: number) {
       /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
     );
 };
+
+
+//get the user selection on a web page
+const getSelectedText=()=>{
+  window.getSelection().toString();
+}
