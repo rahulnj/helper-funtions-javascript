@@ -196,7 +196,3 @@ function numberWithCommas(x: number) {
 };
 
 
-//get the user selection on a web page
-const getSelectedText=()=>{
-  window.getSelection().toString();
-}
