@@ -1,4 +1,4 @@
-# Helper-Funtions in Typescript
+# Helper, Utils - Funtions in Typescript
 
 Feel free to contribute your code on github.
 
