@@ -21,9 +21,13 @@ const getFullNumbers = (str) => {
 //To find a number in a string and replace
 // that number with a question mark or any
 //other character
-
 const replaceNumber = (str, char) => {
   //remove the "+" to place the question mark
   //in the first number position of the string
   return str.replace(/\d+/g, char)
+}
+
+//To validate a email address
+const validateEmail = (email) => {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
 }
