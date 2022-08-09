@@ -1,6 +1,6 @@
 # Helper, Utils - Funtions in Typescript, Javascript
 
-Feel free to contribute your code on github.
+Feel free to open an issue or contribute your code on github.
 
 ---- Want to contribute? ----
 
