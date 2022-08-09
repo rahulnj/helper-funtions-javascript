@@ -4,7 +4,7 @@
 
 //Example:
 
-function createGetData(data) {
+function createGetData() {
   let isCached = false
   let cachedValue = null
   return function () {
