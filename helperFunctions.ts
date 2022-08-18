@@ -87,24 +87,6 @@
   return '';
 };
 
- const getCompanyId = (phoneNumber: string) => {
-  const timestamp = Date.now();
-  return phoneNumber + '_' + timestamp.toString();
-};
-
- const getDigitAsStringWithLeadingZero = (num: number) => {
-  return num > 9 ? '' + num : '0' + num;
-};
-
- const minutesToHourString = (minutes: number) => {
-  const hours = parseInt((minutes / 60).toString());
-  return (
-    getDigitAsStringWithLeadingZero(hours) +
-    ':' +
-    getDigitAsStringWithLeadingZero(minutes - hours * 60)
-  );
-};
-
 function numberWithCommas(x: number) {
   let lastThree = x.toString().substring(x.toString().length - 3);
   let otherNumbers = x.toString().substring(0, x.toString().length - 3);
