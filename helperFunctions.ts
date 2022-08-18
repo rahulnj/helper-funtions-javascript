@@ -87,6 +87,9 @@
   return '';
 };
 
+const differnceBetweenDates = (date1:any, date2:any) =>
+  Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / (1000 * 60 * 60 * 24))
+
 function numberWithCommas(x: number) {
   let lastThree = x.toString().substring(x.toString().length - 3);
   let otherNumbers = x.toString().substring(0, x.toString().length - 3);
@@ -194,3 +197,6 @@ const removeArrayDuplicatesUsingReduce = (array:any[]) => {
     []
   )
 }
+
+//To generate random boolean value
+const randomBoolean = () => Math.random() > 0.5
