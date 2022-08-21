@@ -18,4 +18,3 @@ function createGetData() {
     return result
   }
 }
-console.log(createGetData())
