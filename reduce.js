@@ -1,4 +1,4 @@
-//Javascript array method reduce usecases.
+//Javascript array method `reduce` usecases.
 
 const array = [
   { item: 'item1', price: 10 },
