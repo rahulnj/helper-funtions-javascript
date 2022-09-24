@@ -10,8 +10,6 @@ const reduce1Value = array1.reduce((total, item) => {
   return total + item.price
 }, 0)
 
-console.log({ reduce1Value })
-
 const array2 = [
   { name: 'Rahul', age: 21 },
   { name: 'Sooraj', age: 18 },
@@ -26,4 +24,11 @@ const reduce2Value = array2.reduce((groupedPeople, person) => {
   return groupedPeople
 }, {})
 
-console.log({ reduce2Value })
+const array3 = [1, 2, 3]
+
+const reduce3value = array3.reduce((total, number, index, array) => {
+  return total + number
+}, 0)
+
+//Always try to use a initial value, if not
+//incase of empty array it will throw an error
