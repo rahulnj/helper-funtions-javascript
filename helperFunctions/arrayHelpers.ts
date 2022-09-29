@@ -1,5 +1,5 @@
- const shuffleArray=(array: any[])=> {
-  let currentIndex = array.length,  randomIndex;
+const shuffleArray = (array: any[]) => {
+  let currentIndex = array.length, randomIndex;
   // While there remain elements to shuffle...
   while (currentIndex != 0) {
     // Pick a remaining element...
@@ -13,9 +13,9 @@
 }
 
 // @ts-ignore
- const groupBy = (xs, key) =>
+const groupBy = (xs, key) =>
   // @ts-ignore
-  xs.reduce( (rv, x)=> {
+  xs.reduce((rv, x) => {
     (rv[x[key]] = rv[x[key]] || []).push(x);
     return rv;
   }, {});
@@ -31,7 +31,7 @@ const removeArrayDuplicatesUsingFilter = (array: any[]) => {
 }
 
 //using reduce method to remove duplicates from array
-const removeArrayDuplicatesUsingReduce = (array:any[]) => {
+const removeArrayDuplicatesUsingReduce = (array: any[]) => {
   return array.reduce(
     (partial, item) => (partial.includes(item) ? partial : [...partial, item]),
     []
