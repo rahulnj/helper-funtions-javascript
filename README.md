@@ -1,4 +1,4 @@
-# Helper, Utils - Funtions in Typescript, Javascript
+# Helper, Utils - Funtions & hooks in Typescript, Javascript & react
 
 Feel free to open an issue or contribute your code on github.
 
